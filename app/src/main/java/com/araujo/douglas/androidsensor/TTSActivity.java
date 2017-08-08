@@ -24,7 +24,7 @@ public class TTSActivity extends AppCompatActivity implements TextToSpeech.OnIni
     public void falar(View view) {
         falar();
     }
-
+    //teste
     @Override
     public void onInit(int status) {
         if (status == TextToSpeech.SUCCESS) {
